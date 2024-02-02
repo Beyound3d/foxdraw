@@ -1,11 +1,16 @@
-# install convex
+### install convex
 npm install convex
-# run convex
+### run convex
 npx convex dev
-# install query-string
+### install query-string
 npm i query-string
-# install usehooks-ts
+### install usehooks-ts
 npm i usehooks-ts
-# install lodesh.debounce
+### install lodesh.debounce
 npm install lodash.debounce
-
+### install date-fns
+npm i date-fns
+### install zustand
+npm i zustand
+### install convex-helpers
+npm i convex-helpers
