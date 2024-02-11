@@ -14,3 +14,7 @@ npm i date-fns
 npm i zustand
 ### install convex-helpers
 npm i convex-helpers
+### install liveblocks
+npm i @liveblocks/client/react
+### initilizing liveblocks
+npx create-liveblocks-app@latest --init --framework react
