@@ -1,26 +1,22 @@
-"use client";
+"use-client"
 
 import { Info } from "./info";
 import { Participants } from "./participants";
 import { Toolbar } from "./toolbar";
 
-interface CanvasProps{
-    boardId:string;
-}
+interface CanvasProps {
+    
+      boardId: string;
 
-export const Canvas = ({boardId}:CanvasProps) => {
+  };
+
+export const Canvas = ({boardId,}: CanvasProps) => {
     return (
-        <main className="h-full w-full relative bg-neutral-100 touch-none">
-            <Info boardId={""} />
+        <main
+        className="h-full w-full relative bg-neutal-500 touch-none"> 
+            <Info/>
             <Participants/>
-            <Toolbar canvasState={undefined} setCanvasState={function (newState: CanvasState): void {
-                throw new Error("Function not implemented.");
-            } } undo={function (): void {
-                throw new Error("Function not implemented.");
-            } } redo={function (): void {
-                throw new Error("Function not implemented.");
-            } } canUndo={false} canRedo={false}/>
+            <Toolbar/>
         </main>
-    )
-}
-
+    );
+};
