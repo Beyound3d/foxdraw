@@ -18,3 +18,5 @@ npm i convex-helpers
 npm i @liveblocks/client/react
 ### initilizing liveblocks
 npx create-liveblocks-app@latest --init --framework react
+### install liveblock node package
+npm install @liveblocks/node
