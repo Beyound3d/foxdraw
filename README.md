@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/Beyound3d/foxdraw/blob/master/public/foxdraw.png" align="center" alt="logo"/>
+<img align="center" src="https://github.com/Beyound3d/foxdraw/blob/master/public/foxdraw.png"  alt="logo"/>
 
 
  a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
