@@ -20,3 +20,11 @@ npm i @liveblocks/client/react
 npx create-liveblocks-app@latest --init --framework react
 ### install liveblock node package
 npm install @liveblocks/node
+### install nanoid
+npm i nanoid
+### install contenteditable
+npm i react-contenteditable
+### install perfect-freehand
+npm i perfect-freehand
+## for deploy
+npm run build
